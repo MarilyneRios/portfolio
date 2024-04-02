@@ -1,0 +1,87 @@
+/* header css*/
+.navbar-gradient {
+  /*background-image: linear-gradient(62deg, #45567d 0%, #0d1321 100%);*/
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+
+/* Default CSS*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+
+body {
+  font-weight: 400;
+  overflow-x: hidden;
+  background-image: linear-gradient(62deg, #45567d 0%, #0d1321 100%) !important;
+  color: #fff !important;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1,h2,h3, h4, h5, h6 {
+  margin: 0 , 2.5rem;
+  padding: 0;
+  line-height: normal;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Banner */
+
+.tagline {
+  font-weight: 700;
+  letter-spacing: 0.9px;
+  padding: 1rem;
+  border: 2px double rgba(4, 93, 218, 0.5);
+  border-radius: 1rem;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  display: inline-block;
+  box-shadow: 0px 0px 50px rgba(20, 2, 100, 0.5);
+}
+
+.typeWriter{
+  font-weight: 700;
+  letter-spacing: 0.9px;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+  display: block;
+}
+
+.p {
+  line-height: 1.5em;
+  width: 90%;
+}
+
+.avatar{
+  border: 2px double rgba(4, 93, 218, 0.5);
+  border-radius: 50%;
+  box-shadow: 0px 0px 50px rgba(12, 1, 60, 0.8);
+  animation: updown 3s linear infinite;
+}
+
+@keyframes updown {
+0% {
+  transform: translateY(-10px);
+} 
+50% {
+  transform: translateY(10px);
+}
+100% {
+  transform: translateY(-10px);
+}
+}
+
+.wrap {
+  border-right: 0.09em solid rgba(4, 93, 218, 0.5);
+}
