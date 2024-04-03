@@ -174,12 +174,11 @@ background:rgba(4, 93, 218, 0.5) !important;
 /*projects*/
 
 .project-container {
-   height: 500px;
+   height: 600px;
    background-color: #f4f4f4;
    padding: 20px;
    border-radius: 15px;
    margin-bottom: 3rem;
-  
  }
 
  .project-title{
@@ -187,7 +186,6 @@ background:rgba(4, 93, 218, 0.5) !important;
   letter-spacing: 0.9px;
   padding: 1rem;
   font-size: 2rem;
-  margin-bottom: 1.5rem;
   display: inline-block;
   color:#45567d;
 }
@@ -198,3 +196,46 @@ background:rgba(4, 93, 218, 0.5) !important;
   font-size: 1.2em;
   color: #333;
 }
+
+/*projects*/
+
+.project-container {
+  height: 600px;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 3rem;
+}
+
+.project-title{
+ font-weight: 700;
+ letter-spacing: 0.9px;
+ padding: 1rem;
+ font-size: 2rem;
+ display: inline-block;
+ color:#45567d;
+}
+
+.project-p {
+ margin-bottom: 20px;
+ text-align: center;
+ font-size: 1.2em;
+ color: #333;
+}
+
+.nav.nav-pills .nav-link {
+  background-color: #f4f4f4 !important;
+  color: #0d1321 !important;
+}
+
+.nav.nav-pills .nav-link:hover {
+  background-color: rgba(4, 93, 218, 0.5) !important;
+  color: #fff !important;
+}
+
+.nav.nav-pills .nav-link.active {
+  background-color: #08266d !important;
+  color: #f8f9fa !important;
+}
+
+
