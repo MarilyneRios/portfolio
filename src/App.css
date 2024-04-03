@@ -89,6 +89,14 @@ h1,h2,h3, h4, h5, h6 {
 
 /*Skills*/
 
+.skills{
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .skills-container {
  /* background-image: linear-gradient(62deg, #3a3d40 0%, #3a3d40 100%);*/
   height: 500px;
@@ -96,7 +104,7 @@ h1,h2,h3, h4, h5, h6 {
   padding: 20px;
   border-radius: 15px;
   margin-bottom: 3rem;
-  margin-top: 3rem;
+ 
 }
 
 .skills-title{
@@ -161,4 +169,32 @@ background: rgba(4, 93, 218, 0.5);
 }
 .react-multi-carousel-dot.react-multi-carousel-dot--active button{
 background:rgba(4, 93, 218, 0.5) !important;
+}
+
+/*projects*/
+
+.project-container {
+   height: 500px;
+   background-color: #f4f4f4;
+   padding: 20px;
+   border-radius: 15px;
+   margin-bottom: 3rem;
+  
+ }
+
+ .project-title{
+  font-weight: 700;
+  letter-spacing: 0.9px;
+  padding: 1rem;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  display: inline-block;
+  color:#45567d;
+}
+
+.project-p {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 1.2em;
+  color: #333;
 }

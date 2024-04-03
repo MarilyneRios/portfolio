@@ -39,11 +39,11 @@ const Banner = () => {
     }
 
   return (
-    <section className="banner" id="home">
-        <Container className="d-flex ">
-            <Row className="align-items-center">
+    <section className="banner " id="home">
+        <Container >
+            <Row >
                 <Col  xs={12} md={6} xl={7} className="d-flex flex-column justify-content-center  align-items-center">
-                    <span className="mt-3 tagline">
+                    <span className="mt-5 tagline">
                         Bienvenue sur mon portfolio
                     </span>
                     <h1 className="typeWriter">{`Bonjour, je suis une `}
