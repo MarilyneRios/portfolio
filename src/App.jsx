@@ -11,12 +11,12 @@ function App() {
     <>
     <Header/>
     <Container className=" w-100" style={{marginTop: '5rem'}}/>
-    <div className="w-100 ">
-    <Outlet />
+    <div className="">
+     <Outlet />
     </div>
-    <div>
-    <Footer />
-    </div>
+    
+     <Footer />
+    
     </>
   )
 }

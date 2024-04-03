@@ -4,8 +4,10 @@ import { FaAward } from "react-icons/fa";
 import { GoProjectRoadmap } from "react-icons/go";
 import { MdOutlineContactMail } from "react-icons/md";
 import { LinkContainer } from "react-router-bootstrap";
-import Logo from "../assets/logo.png";
+import Logo from "../assets/avatar.png";
+
 import { useState } from "react";
+import "../App.css";
 
 const Header = () => {
 

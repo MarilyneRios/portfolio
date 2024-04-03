@@ -45,7 +45,7 @@ h1,h2,h3, h4, h5, h6 {
   font-size: 2rem;
   margin-bottom: 1.5rem;
   display: inline-block;
-  box-shadow: 0px 0px 50px rgba(20, 2, 100, 0.5);
+  box-shadow: 0px 0px 50px rgba(236, 236, 238, 0.8);;
 }
 
 .typeWriter{
@@ -66,7 +66,8 @@ h1,h2,h3, h4, h5, h6 {
 .avatar{
   border: 2px double rgba(4, 93, 218, 0.5);
   border-radius: 50%;
-  box-shadow: 0px 0px 50px rgba(12, 1, 60, 0.8);
+  width: 50%;
+  box-shadow: 0px 0px 50px rgba(236, 236, 238, 0.8);
   animation: updown 3s linear infinite;
 }
 
@@ -84,4 +85,80 @@ h1,h2,h3, h4, h5, h6 {
 
 .wrap {
   border-right: 0.09em solid rgba(4, 93, 218, 0.5);
+}
+
+/*Skills*/
+
+.skills-container {
+ /* background-image: linear-gradient(62deg, #3a3d40 0%, #3a3d40 100%);*/
+  height: 500px;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.skills-title{
+  font-weight: 700;
+  letter-spacing: 0.9px;
+  padding: 1rem;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  display: inline-block;
+  color:#45567d;
+}
+
+.skills-h4 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.langages  {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.langage{
+  margin-right: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.langage:hover {
+  transform: scale(1.1);
+}
+
+.slider  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  transition: transform 0.3s ease;
+  color: rgba(4, 93, 218, 0.5);
+}
+
+.slider:hover {
+  transform: scale(1.1);
+}
+
+.logo-name{
+  font-size: 1em;
+  color: #333;
+}
+
+.react-multi-carousel-list {
+padding: 0rem 0 2rem 0;
+}
+
+.custom-dot-list-style button{
+border: none;
+background: rgba(4, 93, 218, 0.5);
+}
+.react-multi-carousel-dot.react-multi-carousel-dot--active button{
+background:rgba(4, 93, 218, 0.5) !important;
 }

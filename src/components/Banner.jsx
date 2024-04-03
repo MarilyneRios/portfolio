@@ -2,6 +2,7 @@ import { useState, useEffect } from "react"
 import { Container,Row, Col, Button } from "react-bootstrap"
 import { FaArrowCircleRight } from "react-icons/fa"
 import Avatar from "../assets/avatar.png"
+import Moi from "../assets/moi.png";
 
 const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
@@ -62,7 +63,7 @@ const Banner = () => {
                     <Button className="my-3" onClick={()=> console.log('connect')}>Me contacter  <FaArrowCircleRight size={25}/></Button>
                 </Col>
                 <Col xs={12} md={6} xl={5} className="d-flex  justify-content-center  align-items-center">
-                        <img src={Avatar} alt="mon avatar"  className="m-5 avatar"/>
+                        <img src={Moi} alt="mon avatar"  className="m-5 avatar"/>
                 </Col>
             </Row>
         </Container>
