@@ -13,3 +13,16 @@ npm install react-bootstrap bootstrap
 npm install react-router-bootstrap
 npm install react-router-dom
 npm i react-multi-carousel
+
+
+# pour le formulaire email :
+ 1/ emailJS
+
+ https://www.emailjs.com/
+ https://www.emailjs.com/docs/examples/reactjs/
+
+tuto
+ https://www.youtube.com/watch?v=bMq2riFCF90
+
+
+ **npm install --save @emailjs/browser**

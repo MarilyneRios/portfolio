@@ -1,6 +1,5 @@
 import Card from "react-bootstrap/Card";
 
-
 const ProjectCard = ({ title, description, image, site, gitHub }) => {
   console.log(title, description, image, site, gitHub);
 
@@ -13,15 +12,13 @@ const ProjectCard = ({ title, description, image, site, gitHub }) => {
       </Card.Body>
 
       <Card.Body>
-
-        <a href={site} target="_blank" rel="noopener noreferrer">
-          <Card.Link className="card-link mx-2">visiter le site</Card.Link>
+        <a href={site} target="_blank" rel="noopener noreferrer" className="card-link mx-2">
+          visiter le site
         </a>
        
-        <a href={gitHub} target="_blank" rel="noopener noreferrer">
-          <Card.Link className="card-link mx-2 ">lien gitHub</Card.Link>
+        <a href={gitHub} target="_blank" rel="noopener noreferrer" className="card-link mx-2">
+          lien gitHub
         </a>
-
       </Card.Body>
     </Card>
   );

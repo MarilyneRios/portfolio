@@ -197,35 +197,17 @@ background:rgba(4, 93, 218, 0.5) !important;
   color: #333;
 }
 
-/*projects*/
-
-.project-container {
-  height: 600px;
-  background-color: #f4f4f4;
-  padding: 20px;
-  border-radius: 15px;
-  margin-bottom: 3rem;
-}
-
-.project-title{
- font-weight: 700;
- letter-spacing: 0.9px;
- padding: 1rem;
- font-size: 2rem;
- display: inline-block;
- color:#45567d;
-}
-
-.project-p {
- margin-bottom: 20px;
- text-align: center;
- font-size: 1.2em;
- color: #333;
+.nav.nav-pills{
+  padding: 10px; /* Ajoutez un padding pour donner plus d'espace */
+  background-color: #f4f4f4; /* Changez la couleur de fond si nécessaire */
 }
 
 .nav.nav-pills .nav-link {
   background-color: #f4f4f4 !important;
   color: #0d1321 !important;
+  height: 2.5rem;
+  margin-right: 10px; /* Ajoutez une marge à droite pour séparer les liens */
+  border-radius: 25px; /* Ajoutez un border-radius pour adoucir les bords */
 }
 
 .nav.nav-pills .nav-link:hover {
@@ -238,4 +220,9 @@ background:rgba(4, 93, 218, 0.5) !important;
   color: #f8f9fa !important;
 }
 
+/*Contact*/
 
+.SendEmail{
+  box-shadow: 0px 0px 50px rgba(236, 236, 238, 0.8);
+  border: 1px double rgba(4, 93, 218, 0.5);
+}

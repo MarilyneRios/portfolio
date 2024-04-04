@@ -4,7 +4,7 @@ import { FaAward } from "react-icons/fa";
 import { GoProjectRoadmap } from "react-icons/go";
 import { MdOutlineContactMail } from "react-icons/md";
 import { LinkContainer } from "react-router-bootstrap";
-import Logo from "../assets/avatar.png";
+import Logo from "../assets/logoDevPink.png";
 
 import { useState } from "react";
 import "../App.css";
@@ -21,7 +21,7 @@ const onUpdateActiveLink = (value) => {
     <header>
       <Navbar className="navbar-gradient" variant="dark" expand="lg" collapseOnSelect fixed="top">
         <Container fluid>
-        <img src={Logo} className="rounded img-fluid" style={{maxWidth: "50px"}} alt="Logo"/>
+        <img src={Logo} className="rounded-circle img-fluid Logo border" style={{maxWidth: "50px"}} alt="Logo"/>
           <Navbar.Brand className="mx-3 fs-3">Marilyne Rios</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
