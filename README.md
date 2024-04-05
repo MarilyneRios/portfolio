@@ -14,8 +14,31 @@ npm install react-router-bootstrap
 npm install react-router-dom
 npm i react-multi-carousel
 
+# npm install react-scroll
 
-# pour le formulaire email :
+**1/ Dans Hearder :**
+
+    import { Link } from 'react-scroll';
+
+    <Link 
+    activeClass="active"
+    to="skills"
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={500}
+    className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'}
+    onClick={() => onUpdateActiveLink('skills')}
+    >
+    <FaAward /> Compétences
+    </Link>
+
+**2/ Dans le HomeScreen :**
+    <div id="skills">
+    <Skills />
+    </div>
+
+# Pour le formulaire email :
  1/ emailJS
 
  https://www.emailjs.com/
@@ -26,3 +49,4 @@ tuto
 
 
  **npm install --save @emailjs/browser**
+

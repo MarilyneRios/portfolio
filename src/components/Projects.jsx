@@ -41,6 +41,7 @@ const Projects = () => {
                       <Tab.Pane eventKey="first" className="project-p">   {
                         
                         <ProjectCard
+                          className="ProjectCard"
                           title="Astuces d'apprentissage"
                           description="Des conseils pédagogiques à destination des collègiens"
                           image={Astuces}

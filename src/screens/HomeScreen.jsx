@@ -5,13 +5,21 @@ import Contact from "../components/Contact";
 
 const HomeScreen = () => {
   return (
-    <div >
+    <div>
       <Banner />
-      <Skills />
-      <Projects />
-      <Contact/>
-    </div>
-  )
-}
+      <div id="skills">
+        <Skills />
+      </div>
+      
+      <div id="projects">
+        <Projects />
+      </div>
 
-export default HomeScreen
+      <div id="contact">
+        <Contact />
+      </div>
+    </div>
+  );
+};
+
+export default HomeScreen;

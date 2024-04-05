@@ -1,8 +1,12 @@
 import { useState, useEffect } from "react"
+import { LinkContainer } from "react-router-bootstrap";
 import { Container,Row, Col, Button } from "react-bootstrap"
 import { FaArrowCircleRight } from "react-icons/fa"
 import Avatar from "../assets/avatar.png"
 import Moi from "../assets/moi.png";
+import { Link } from "react-router-dom";
+import { FaGithub } from "react-icons/fa";
+import { TiSocialLinkedinCircular } from "react-icons/ti";
 
 const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
@@ -39,7 +43,7 @@ const Banner = () => {
     }
 
   return (
-    <section className="banner " id="home">
+    <section className="banner" id="home">
         <Container >
             <Row >
                 <Col  xs={12} md={6} xl={7} className="d-flex flex-column justify-content-center  align-items-center">
@@ -60,7 +64,31 @@ const Banner = () => {
                         De plus, il y a toujours de nouvelles compétences à acquérir, de nouveaux défis à relever,
                         ce qui rend ce métier stimulant et passionnant.
                     </p>
-                    <Button className="my-3" onClick={()=> console.log('connect')}>Me contacter  <FaArrowCircleRight size={25}/></Button>
+                    <p>
+                        Vous pouvez consulter mon github et mon profil linkedin.
+                    </p>
+                    <div>
+                         <Link
+                            to="https://github.com/MarilyneRios"
+                            target="_blank"
+                            className="link-underline-light link-primary  mx-4"
+                            >
+                            <FaGithub size={50}/>
+                        </Link>
+                        <Link
+                            to="https://www.linkedin.com/in/marilyne-rios-59a13015b"
+                            target="_blank"
+                            className="link-underline-light link-primary "
+                            >
+                            <TiSocialLinkedinCircular  size={70}/>
+                        </Link>
+                    </div>
+                    <LinkContainer to="/contact">
+                        <Button className="my-3">Me contacter  <FaArrowCircleRight size={25}/></Button>
+                    </LinkContainer>
+
+     
+                   
                 </Col>
                 <Col xs={12} md={6} xl={5} className="d-flex  justify-content-center  align-items-center">
                         <img src={Moi} alt="mon avatar"  className="m-5 avatar"/>
