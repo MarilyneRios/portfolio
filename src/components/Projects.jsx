@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Tab from "react-bootstrap/Tab";
 import ProjectCard from '../components/ProjectCard';
 import Astuces from '../assets/astucesdapprentissage.png';
-import Philo from '../assets/philosentence.png';
+import TicTacToe from '../assets/tictactoc.png';
 
 const Projects = () => {
 
@@ -29,7 +29,7 @@ const Projects = () => {
                         </Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="second"><p>Javascript native</p> </Nav.Link>
+                        <Nav.Link eventKey="second"><p>React Js</p> </Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
                         <Nav.Link eventKey="third">Tab 3</Nav.Link>
@@ -52,11 +52,11 @@ const Projects = () => {
                         }</Tab.Pane>
                       <Tab.Pane eventKey="second" className="project-p ">
                       <ProjectCard
-                          title="Philo-Sentence"
-                          description="Lire des phrases philosophiques aléatoires"
-                          image={Philo}
-                          site="https://philosentence.netlify.app/"
-                          gitHub="https://github.com/MarilyneRios/philoSentence.git"
+                          title="Tic Tac Toe"
+                          description="Exercice d'apprentissage React"
+                          image={TicTacToe}
+                          site="https://rad-florentine-74670e.netlify.app/"
+                          gitHub="https://github.com/MarilyneRios/tictactoe.git"
                         />
                       </Tab.Pane>
                       <Tab.Pane eventKey="third" className="project-p ">third tab content</Tab.Pane>

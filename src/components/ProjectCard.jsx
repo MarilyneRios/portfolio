@@ -4,7 +4,7 @@ const ProjectCard = ({ title, description, image, site, gitHub }) => {
   console.log(title, description, image, site, gitHub);
 
   return (
-    <Card style={{ width: "25rem" }} className="">
+    <Card style={{ width: "25rem" }} className="ProjectCard">
       <Card.Img variant="top" src={image} />
       <Card.Body>
         <Card.Title className="fw-bold">{title}</Card.Title>
