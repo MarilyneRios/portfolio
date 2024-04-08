@@ -34,6 +34,7 @@ const Header = () => {
                 >
                 <IoHomeOutline /> Accueil
               </Link>
+
               <Link 
                 activeClass="active"
                 to="skills"
@@ -48,7 +49,7 @@ const Header = () => {
 
               <Link 
                 activeClass="active"
-                to="projects"
+                to="project"
                 spy={true}
                 smooth={true}
                 offset={-70}
