@@ -61,17 +61,14 @@ const Skills = () => {
                       size={50}
                       style={{ color: "rgba(4, 93, 218, 0.5)" }}
                     />
-                  </div>
-                  {" "}
+                  </div>{" "}
                   <div className="langage">
-                  {" "}
+                    {" "}
                     <FaBootstrap
                       size={50}
                       style={{ color: "rgba(	102, 16, 242, 0.5)" }}
                     />
-                   
                   </div>
-                  
                   <div className="langage">
                     {" "}
                     <SiJavascript size={50} style={{ color: "#FFFF00" }} />
@@ -89,62 +86,70 @@ const Skills = () => {
                 <Carousel
                   responsive={responsive}
                   autoPlay={true}
-                  swipeable={true}
-                  draggable={true}
+                  swipeable={false}
+                  draggable={false}
                   showDots={true}
                   infinite={true}
                   partialVisible={false}
                   dotListClass="custom-dot-list-style"
+                  ssr={true}
+                  autoPlaySpeed={2000}
+                  keyBoardControl={true}
+                  customTransition="all .5"
+                  transitionDuration={500}
+                  containerClass="carousel-container"
                 >
                   <div className="slider">
-                    <FaReact size={50} style={{ color: "#61DAFB" }} />{" "}
+                    <FaReact size={50} style={{ color: "#61DAFB" }} />
                     <p className="logo-name">React</p>
                   </div>
                   <div className="slider">
-                    <TbBrandVite size={50} style={{ color: "#646CFF" }} />{" "}
+                    <TbBrandVite size={50} style={{ color: "#646CFF" }} />
                     <p className="logo-name">Vite</p>
                   </div>
+
                   <div className="slider">
-                    <TbBrandReactNative
+                    <FaReact
                       size={50}
                       style={{ color: "#2D2D2D" }}
-                    />{" "}
+                    />
                     <p className="logo-name">React Native</p>
                   </div>
                   <div className="slider">
-                    <TbBrandNextjs size={50} style={{ color: "#000000" }} />{" "}
+                    <TbBrandNextjs size={50} style={{ color: "#000000" }} />
                     <p className="logo-name">Next.js</p>
                   </div>
                   <div className="slider ">
-                    <SiRedux size={50} style={{ color: "#764ABC" }} />{" "}
+                    <SiRedux size={50} style={{ color: "#764ABC" }} />
                     <p className="logo-name">Redux</p>
                   </div>
                   <div className="slider">
-                    <FaNodeJs size={50} style={{ color: "#539E43" }} />{" "}
+                    <FaNodeJs size={50} style={{ color: "#539E43" }} />
                     <p className="logo-name">Node.js</p>
                   </div>
+
                   <div className="slider">
-                    <SiExpress size={50} style={{ color: "#808080" }} />{" "}
+                    <SiExpress size={50} style={{ color: "#808080" }} />
                     <p className="logo-name">Express</p>
                   </div>
                   <div className="slider">
-                    <SiMongodb size={50} style={{ color: "#47A248" }} />{" "}
+                    <SiMongodb size={50} style={{ color: "#47A248" }} />
                     <p className="logo-name">MongoDB</p>
                   </div>
                   <div className="slider">
-                    <TbBrandVercel size={50} style={{ color: "#000000" }} />{" "}
+                    <TbBrandVercel size={50} style={{ color: "#000000" }} />
                     <p className="logo-name">Vercel</p>
                   </div>
                   <div className="slider">
-                    <SiNetlify size={50} style={{ color: "#00C7B7" }} />{" "}
+                    <SiNetlify size={50} style={{ color: "#00C7B7" }} />
                     <p className="logo-name">Netlify</p>
                   </div>
                   <div className="slider">
-                    <IoIosGitMerge size={50} style={{ color: "#F1502F" }} />{" "}
+                    <IoIosGitMerge size={50} style={{ color: "#F1502F" }} />
                     <p className="logo-name">Git</p>
                   </div>
                   <div className="slider">
-                    <FaGithub size={50} style={{ color: "#181717" }} />{" "}
+                    <FaGithub size={50} style={{ color: "#181717" }} />
                     <p className="logo-name">GitHub</p>
                   </div>
                 </Carousel>

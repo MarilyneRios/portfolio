@@ -6,7 +6,7 @@ import { FaGithub } from "react-icons/fa";
 function Footer() {
   return (
     <div className="footer">
-      <p className='text-footer'>
+      <p className='text-footer pt-2'>
         <span className="fst-italic">{" "} Copyright © 2024 by Marilyne Rios</span>
       </p>
       <div className='link-footer'>
