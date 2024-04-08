@@ -247,16 +247,16 @@ background:rgba(4, 93, 218, 0.5) !important;
 }
 
 .nav.nav-pills{
-  padding: 10px; /* Ajoutez un padding pour donner plus d'espace */
-  background-color: #f4f4f4; /* Changez la couleur de fond si nécessaire */
+  padding: 10px; 
+  background-color: #f4f4f4; 
 }
 
 .nav.nav-pills .nav-link {
   background-color: #f4f4f4 !important;
   color: #0d1321 !important;
   height: 2.5rem;
-  margin-right: 10px; /* Ajoutez une marge à droite pour séparer les liens */
-  border-radius: 25px; /* Ajoutez un border-radius pour adoucir les bords */
+  margin-right: 10px; 
+  border-radius: 25px; 
 }
 
 .nav.nav-pills .nav-link:hover {
@@ -297,4 +297,71 @@ background:rgba(4, 93, 218, 0.5) !important;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+/*adaptation mobile*/
+@media screen and (max-width: 480px) {
+  /* Banner */
+  .banner{
+    width: 100vw;
+    padding-top: 1rem;
+  }
+
+  .tagline {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .typeWriter{
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .p {
+    width: 80%;
+  }
+
+  .avatar{
+    width: 70%;
+  }
+
+  /* Skills */
+  .skills{
+    width: 90vw;
+  }
+
+  .skills-title{
+    font-size: 1.5rem;
+  }
+
+  .skills-h4 {
+    font-size: 1em;
+  }
+
+  .langages  {
+    flex-direction: column;
+  }
+
+  /* Projects */
+  .project{
+    width: 90vw;
+  }
+
+  .project-title{
+    font-size: 1.5rem;
+  }
+
+  .project-p {
+    font-size: 1em;
+  }
+
+  /* Contact */
+  .contact {
+    width: 90vw;
+  }
+
+  /* Footer */
+  .footer{
+    width: 100vw;
+  }
 }
