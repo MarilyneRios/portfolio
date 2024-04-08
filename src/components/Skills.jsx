@@ -18,6 +18,7 @@ import { IoIosGitMerge } from "react-icons/io";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { SiJavascript } from "react-icons/si";
+import { FaBootstrap } from "react-icons/fa";
 
 const Skills = () => {
   const responsive = {
@@ -61,6 +62,16 @@ const Skills = () => {
                       style={{ color: "rgba(4, 93, 218, 0.5)" }}
                     />
                   </div>
+                  {" "}
+                  <div className="langage">
+                  {" "}
+                    <FaBootstrap
+                      size={50}
+                      style={{ color: "rgba(	102, 16, 242, 0.5)" }}
+                    />
+                   
+                  </div>
+                  
                   <div className="langage">
                     {" "}
                     <SiJavascript size={50} style={{ color: "#FFFF00" }} />

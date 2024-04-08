@@ -5,6 +5,7 @@ import Tab from "react-bootstrap/Tab";
 import ProjectCard from '../components/ProjectCard';
 import Astuces from '../assets/astucesdapprentissage.png';
 import TicTacToe from '../assets/tictactoc.png';
+import Sentence from '../assets/philosentence.png';
 
 const Projects = () => {
 
@@ -25,14 +26,14 @@ const Projects = () => {
                     <Nav variant="pills" className="justify-content-center">
                       <Nav.Item>
                         <Nav.Link eventKey="first">
-                              <p>Javascript native</p>                              
+                              <p>Projet 1</p>                              
                         </Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="second"><p>React Js</p> </Nav.Link>
+                        <Nav.Link eventKey="second"><p>Projet 2</p> </Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                        <Nav.Link eventKey="third">Projet 3</Nav.Link>
                       </Nav.Item>
                     </Nav>
                   </Col>
@@ -42,8 +43,8 @@ const Projects = () => {
                         
                         <ProjectCard
                           className="ProjectCard"
-                          title="Astuces d'apprentissage"
-                          description="Des conseils pédagogiques à destination des collègiens"
+                          title="HTML/CSS/JS"
+                          description="Astuces d'apprentissage, conseils pédagogiques à destination des collègiens"
                           image={Astuces}
                           site="https://astucesdapprentissage.netlify.app/"
                           gitHub="https://github.com/MarilyneRios/Astuces-D-Apprentissage"
@@ -52,14 +53,20 @@ const Projects = () => {
                         }</Tab.Pane>
                       <Tab.Pane eventKey="second" className="project-p ">
                       <ProjectCard
-                          title="Tic Tac Toe"
-                          description="Exercice d'apprentissage React"
+                          title="HTML/CSS/JS"
+                          description="générateur de phrases, exercice d'apprentissage JavaScript et API"
+                          image={Sentence}
+                          site="https://philosentence.netlify.app/"
+                          gitHub="https://github.com/MarilyneRios/philoSentence/blob/main/script.js"
+                        />
+                      </Tab.Pane>
+                      <Tab.Pane eventKey="third" className="project-p ">     <ProjectCard
+                          title="React avec JS"
+                          description="Tic Tac Toe, exercice d'apprentissage de React"
                           image={TicTacToe}
                           site="https://rad-florentine-74670e.netlify.app/"
                           gitHub="https://github.com/MarilyneRios/tictactoe.git"
-                        />
-                      </Tab.Pane>
-                      <Tab.Pane eventKey="third" className="project-p ">third tab content</Tab.Pane>
+                        /></Tab.Pane>
 
                     </Tab.Content>
                   </Col>

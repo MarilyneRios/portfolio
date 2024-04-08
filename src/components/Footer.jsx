@@ -5,11 +5,11 @@ import { FaGithub } from "react-icons/fa";
 
 function Footer() {
   return (
-    <footer style={{backgroundColor: '#3a3d40', color: 'white', textAlign: 'center', padding: '20px', position: 'relative', width: '100%', bottom: '0'}}>
-      <p>
+    <div className="footer">
+      <p className='text-footer'>
         <span className="fst-italic">{" "} Copyright © 2024 by Marilyne Rios</span>
       </p>
-      <div>
+      <div className='link-footer'>
         <Link
           to="mailto:rios.marilyne@gmail.com"
           className="link-underline-light link-primary  "
@@ -31,7 +31,7 @@ function Footer() {
           <TiSocialLinkedinCircular  size={70}/>
         </Link>
       </div>
-    </footer>
+    </div>
   )
 }
 

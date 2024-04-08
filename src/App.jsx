@@ -15,7 +15,7 @@ function App() {
      <Outlet />
     </div>
     
-     <Footer />
+     <Footer  className=" w-100"/>
     
     </>
   )
