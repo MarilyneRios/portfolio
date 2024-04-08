@@ -303,7 +303,7 @@ background:rgba(4, 93, 218, 0.5) !important;
 @media screen and (max-width: 480px) {
   /* Banner */
   .banner{
-    width: 100vw;
+    width: 95vw;
     padding-top: 1rem;
   }
 
@@ -319,6 +319,8 @@ background:rgba(4, 93, 218, 0.5) !important;
 
   .p {
     width: 80%;
+    padding: 1.5rem;
+    
   }
 
   .avatar{
@@ -348,7 +350,7 @@ background:rgba(4, 93, 218, 0.5) !important;
   }
 
   .ProjectCard{
-    width: 60vw;
+    width: 70vw !important;
   }
 
   .project-title{
