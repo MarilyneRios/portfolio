@@ -306,6 +306,8 @@ background:rgba(4, 93, 218, 0.5) !important;
   .langages  {
     flex-direction: column;
     margin-bottom: 0.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   }
   /*Project*/
   .ProjectCard{
@@ -313,8 +315,6 @@ background:rgba(4, 93, 218, 0.5) !important;
   }
 
 }
-
-
 
 
 /*adaptation mobile*/
@@ -361,6 +361,8 @@ background:rgba(4, 93, 218, 0.5) !important;
   .langages  {
     flex-direction: column;
     margin-bottom: 0.2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .react-multi-carousel-list {
