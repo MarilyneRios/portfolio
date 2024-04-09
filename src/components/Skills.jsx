@@ -78,7 +78,7 @@ const Skills = () => {
                     <SiMongoose size={90} style={{ color: "#8B0000" }} />
                   </div>
                 </div>
-                
+
               </div>
               <div className="m-3 p-3 rounded">
                 <h4 className="skills-h4">

@@ -178,7 +178,6 @@ h1,h2,h3, h4, h5, h6 {
   align-items: center;
   padding: 10px;
   transition: transform 0.3s ease;
-  color: rgba(4, 93, 218, 0.5);
 }
 
 .slider:hover {
@@ -305,17 +304,28 @@ background:rgba(4, 93, 218, 0.5) !important;
   /*skils*/
   .langages  {
     flex-direction: column;
-    margin-bottom: 0.5rem;
+    margin: 0.5rem auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
+
+  .langage{
+    margin: auto;
+  }
+
   /*Project*/
   .ProjectCard{
     width: 50vw !important;
   }
 
+  .slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+  }
 }
-
 
 /*adaptation mobile*/
 @media screen and (max-width: 480px) {
@@ -360,17 +370,13 @@ background:rgba(4, 93, 218, 0.5) !important;
 
   .langages  {
     flex-direction: column;
-    margin-bottom: 0.2rem;
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .react-multi-carousel-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: transform 0.5s ease;
-    padding: 0;
+  .langage{
+    margin: auto;
   }
 
   .slider {
@@ -378,10 +384,7 @@ background:rgba(4, 93, 218, 0.5) !important;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 60px 10px 0;
-    transition: transform 0.3s ease;
-    color: rgba(4, 93, 218, 0.5);
-    width: 38%; 
+   margin: auto;
   }
 
   /* Projects */
