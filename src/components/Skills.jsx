@@ -5,7 +5,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import { SiNetlify } from "react-icons/si";
 import { SiRedux } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
-import { TbBrandReactNative } from "react-icons/tb";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiMongodb } from "react-icons/si";
 import { SiMongoose } from "react-icons/si";
@@ -21,6 +20,7 @@ import { SiJavascript } from "react-icons/si";
 import { FaBootstrap } from "react-icons/fa";
 
 const Skills = () => {
+
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
@@ -84,20 +84,21 @@ const Skills = () => {
                   Outils et technologies que j&apos;utilise :
                 </h4>
                 <Carousel
-                  responsive={responsive}
-                  autoPlay={true}
                   swipeable={false}
-                  draggable={false}
-                  showDots={true}
-                  infinite={true}
-                  partialVisible={false}
-                  dotListClass="custom-dot-list-style"
-                  ssr={true}
-                  autoPlaySpeed={2000}
-                  keyBoardControl={true}
-                  customTransition="all .5"
-                  transitionDuration={500}
-                  containerClass="carousel-container"
+  draggable={false}
+  showDots={true}
+  responsive={responsive}
+  ssr={true} // means to render carousel on server-side.
+  infinite={true}
+  autoPlay={true }
+  autoPlaySpeed={1000}
+  keyBoardControl={true}
+  customTransition="all .5"
+  transitionDuration={500}
+  containerClass="carousel-container"
+  removeArrowOnDeviceType={["tablet", "mobile"]}
+  dotListClass="custom-dot-list-style"
+  itemClass="carousel-item-padding-40-px"
                 >
                   <div className="slider">
                     <FaReact size={50} style={{ color: "#61DAFB" }} />
