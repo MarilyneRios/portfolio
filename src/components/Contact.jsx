@@ -30,7 +30,7 @@ const Contact = () => {
   return (
     <section className="contact" id="contact">
       <Container className="border rounded ">
-      <h2 className="fs-1 text-center">Contact</h2>
+      <h2 className="fs-1 text-center mt-3">Contact</h2>
         <Row className="d-flex justify-content-center align-items-center my-3 g-0">
           <Col md={6} className=" mb-3 d-flex justify-content-center align-items-center">
             <img src={SendEmail} alt="Me contacter" className="w-50 rounded SendEmail"/>
