@@ -5,7 +5,7 @@ import Tab from "react-bootstrap/Tab";
 import ProjectCard from '../components/ProjectCard';
 import Astuces from '../assets/astucesdapprentissage.png';
 import TicTacToe from '../assets/tictactoc.png';
-import Sentence from '../assets/philosentence.png';
+import basicAuth from '../assets/basicAuth.png';
 
 const Projects = () => {
 
@@ -53,11 +53,11 @@ const Projects = () => {
                         }</Tab.Pane>
                       <Tab.Pane eventKey="second" className="project-p ">
                       <ProjectCard
-                          title="HTML/CSS/JS"
-                          description="générateur de phrases, exercice d'apprentissage JavaScript et API"
-                          image={Sentence}
-                          site="https://philosentence.netlify.app/"
-                          gitHub="https://github.com/MarilyneRios/philoSentence/blob/main/script.js"
+                          title="basic MERN authentification"
+                          description="Un starter pour une APP Web full-stack MERN avec authentification."
+                          image={basicAuth}
+                          site="https://basic-auth-caqe.onrender.com/"
+                          gitHub="https://github.com/MarilyneRios/basic-auth"
                         />
                       </Tab.Pane>
                       <Tab.Pane eventKey="third" className="project-p ">     <ProjectCard
