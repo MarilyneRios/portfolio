@@ -7,6 +7,8 @@ import Astuces from '../assets/astucesdapprentissage.png';
 import TicTacToe from '../assets/tictactoc.png';
 import basicAuth from '../assets/basicAuth.png';
 
+import moviesQuiz from '../assets/moviesQuiz.png';
+
 const Projects = () => {
 
 
@@ -35,6 +37,9 @@ const Projects = () => {
                       <Nav.Item>
                         <Nav.Link eventKey="third">Projet 3</Nav.Link>
                       </Nav.Item>
+                      <Nav.Item>
+                        <Nav.Link eventKey="fourth">Projet 4</Nav.Link>
+                      </Nav.Item>
                     </Nav>
                   </Col>
                   <Col sm={12} className="my-2 d-flex justify-content-center">
@@ -51,6 +56,7 @@ const Projects = () => {
                         />
                       
                         }</Tab.Pane>
+
                       <Tab.Pane eventKey="second" className="project-p ">
                       <ProjectCard
                           title="basic MERN authentification"
@@ -60,12 +66,21 @@ const Projects = () => {
                           gitHub="https://github.com/MarilyneRios/basic-auth"
                         />
                       </Tab.Pane>
+
                       <Tab.Pane eventKey="third" className="project-p ">     <ProjectCard
                           title="React avec JS"
                           description="Tic Tac Toe, exercice d'apprentissage de React"
                           image={TicTacToe}
                           site="https://rad-florentine-74670e.netlify.app/"
                           gitHub="https://github.com/MarilyneRios/tictactoe.git"
+                        /></Tab.Pane>
+
+                      <Tab.Pane eventKey="fourth" className="project-p ">     <ProjectCard
+                          title="React avec JS"
+                          description="Quiz, exercice d'apprentissage de React + Bootstrap 5"
+                          image={moviesQuiz}
+                          site="https://movies-quiz.netlify.app/"
+                          gitHub="https://github.com/MarilyneRios/moviesQuiz"
                         /></Tab.Pane>
 
                     </Tab.Content>
