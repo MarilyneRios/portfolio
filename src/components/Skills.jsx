@@ -18,6 +18,7 @@ import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { SiJavascript } from "react-icons/si";
 import { FaBootstrap } from "react-icons/fa";
+import { RiTailwindCssFill } from "react-icons/ri";
 
 const Skills = () => {
   const responsive = {
@@ -67,6 +68,13 @@ const Skills = () => {
                     <FaBootstrap
                       size={50}
                       style={{ color: "rgba(	102, 16, 242, 0.5)" }}
+                    />
+                  </div>
+                  <div className="langage">
+                    {" "}
+                    <RiTailwindCssFill
+                      size={50}
+                      style={{ color: "rgba(	4, 93, 218, 0.5)" }}
                     />
                   </div>
                   <div className="langage">
