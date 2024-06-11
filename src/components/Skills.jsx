@@ -18,7 +18,7 @@ import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { SiJavascript } from "react-icons/si";
 import { FaBootstrap } from "react-icons/fa";
-
+import { SiTailwindcss } from "react-icons/si";
 
 const Skills = () => {
   const responsive = {
@@ -69,6 +69,13 @@ const Skills = () => {
                       size={50}
                       style={{ color: "rgba(	102, 16, 242, 0.5)" }}
                     />
+                  </div>
+                  <div className="langage">
+                  {" "}
+                  <SiTailwindcss
+                      size={50}
+                      style={{ color: "rgba(0,116,199, 0.5)" }}
+                   />
                   </div>
                   
                   <div className="langage">
