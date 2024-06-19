@@ -11,7 +11,7 @@ import { TiSocialLinkedinCircular } from "react-icons/ti";
 const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDelete, setIsDelete] = useState(false);
-    const toRotate = ["passionnée de code. ","déveppeuse web."];
+    const toRotate = ["m'appelle Marilyne Rios","suis une déveppeuse web. ","suis une déveppeuse React."];
     const [text, setText] = useState("");
     const [delta, setDelta] = useState (200 - Math.random() * 100);
     const period = 500;
@@ -50,7 +50,7 @@ const Banner = () => {
                     <span className="mt-5 tagline">
                         Bienvenue sur mon portfolio
                     </span>
-                    <h1 className="typeWriter">{`Bonjour, je suis une `}
+                    <h1 className="typeWriter">{`Bonjour, je `}
                         <span className="wrap">
                             {text}
                         </span>
