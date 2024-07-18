@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Tab from "react-bootstrap/Tab";
 import ProjectCard from '../components/ProjectCard';
 import Astuces from '../assets/astucesdapprentissage.png';
-import TicTacToe from '../assets/tictactoc.png';
+import basicAuthB from '../assets/auth-react-bootstrap.png';
 import basicAuth from '../assets/basicAuth.png';
 
 import moviesQuiz from '../assets/moviesQuiz.png';
@@ -59,7 +59,7 @@ const Projects = () => {
 
                       <Tab.Pane eventKey="second" className="project-p ">
                       <ProjectCard
-                          title="basic MERN authentification"
+                          title="Basic MERN authentification Tailwind"
                           description="Un starter pour une APP Web full-stack MERN avec authentification."
                           image={basicAuth}
                           site="https://basic-auth-caqe.onrender.com/"
@@ -68,11 +68,11 @@ const Projects = () => {
                       </Tab.Pane>
 
                       <Tab.Pane eventKey="third" className="project-p ">     <ProjectCard
-                          title="React avec JS"
-                          description="Tic Tac Toe, exercice d'apprentissage de React"
-                          image={TicTacToe}
-                          site="https://rad-florentine-74670e.netlify.app/"
-                          gitHub="https://github.com/MarilyneRios/tictactoe.git"
+                          title="Basic MERN authentification Bootstrap"
+                          description="Un starter pour une APP Web full-stack MERN avec authentification"
+                          image={basicAuthB}
+                          site="https://github.com/MarilyneRios/auth-React-Bootstrap/tree/main"
+                          gitHub="https://auth-react-bootstrap.onrender.com"
                         /></Tab.Pane>
 
                       <Tab.Pane eventKey="fourth" className="project-p ">     <ProjectCard

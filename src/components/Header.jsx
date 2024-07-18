@@ -30,7 +30,7 @@ const Header = () => {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                className="navbar-link"
+                className="navbar-link text-center"
                 >
                 <IoHomeOutline /> Accueil
               </Link>
@@ -42,7 +42,7 @@ const Header = () => {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                className="navbar-link"
+                className="navbar-link text-center"
               >
                 <FaAward /> Compétences
               </Link>
@@ -54,7 +54,7 @@ const Header = () => {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                className="navbar-link"
+                className="navbar-link text-center"
               >
                 <GoProjectRoadmap /> Projets
               </Link>
@@ -66,7 +66,7 @@ const Header = () => {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                className="navbar-link"
+                className="navbar-link text-center"
               >
                 <MdOutlineContactMail /> Contact
               </Link>
