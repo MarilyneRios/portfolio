@@ -71,8 +71,8 @@ const Projects = () => {
                           title="Basic MERN authentification Bootstrap"
                           description="Un starter pour une APP Web full-stack MERN avec authentification"
                           image={basicAuthB}
-                          site="https://github.com/MarilyneRios/auth-React-Bootstrap/tree/main"
-                          gitHub="https://auth-react-bootstrap.onrender.com"
+                          site="https://auth-react-bootstrap.onrender.com"
+                          gitHub="https://github.com/MarilyneRios/auth-React-Bootstrap/tree/main"
                         /></Tab.Pane>
 
                       <Tab.Pane eventKey="fourth" className="project-p ">     <ProjectCard
